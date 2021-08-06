@@ -14,3 +14,65 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.head-table td {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.card-order,
+.card-order > .card-header {
+  border-radius: 0;
+}
+
+.accordion-button {
+  padding: 12px 16px !important;
+}
+
+/* sm */
+@media only screen and (max-width: 576px) {
+  .container {
+    padding: 0px 1rem !important;
+  }
+  .dropdown-menu {
+    overflow-x: auto;
+  }
+  .dropdown-item {
+    flex-wrap: wrap;
+  }
+}
+
+/* sm */
+@media only screen and (min-width: 576px) {
+  .img-hero {
+    height: 350px !important;
+  }
+  .dropdown-menu {
+    width: 380px !important;
+  }
+}
+
+/* md */
+@media only screen and (min-width: 768px) {
+  .img-hero {
+    height: 400px !important;
+  }
+  .filters {
+    width: 500px !important;
+  }
+}
+
+/* lg */
+@media only screen and (min-width: 992px) {
+  .img-hero {
+    height: 430px !important;
+  }
+}
+
+/* xl */
+@media only screen and (min-width: 1200px) {
+}
+
+/* xxl */
+@media only screen and (min-width: 1400px) {
+}

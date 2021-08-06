@@ -54,6 +54,7 @@ export const filterReducer = (state: FilterState, action: FilterAction) => {
         byFastDelivery: false,
         byRating: 0,
         searchQuery: '',
+        sort: '',
       };
 
     default:
